@@ -58,15 +58,15 @@ export default function Admin() {
   }
 
   return (
-    <div className="p-6 space-y-10 bg-gray-950 min-h-screen">
-      {/* Header */}
-      <header className="flex justify-between items-center">
-        <h2 className="text-3xl font-bold text-white tracking-wide">
-          🏥 Hospital Dashboard
+    <div className="p-8 space-y-12 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 min-h-screen text-white">
+      {/* Futuristic Header */}
+      <header className="flex justify-between items-center border-b border-gray-800 pb-6">
+        <h2 className="text-3xl font-bold tracking-wide text-cyan-400 drop-shadow-md">
+          ⚡ Admin Control Center
         </h2>
         <Link to="/hospital">
-          <button className="btn primary px-4 py-2 rounded-xl bg-cyan-500 hover:bg-cyan-600 text-white font-semibold shadow-lg transition-all duration-300">
-            Hospital Portal
+          <button className="px-5 py-2 rounded-xl bg-cyan-500/90 hover:bg-cyan-400 text-white font-semibold shadow-lg shadow-cyan-500/30 transition-all duration-300">
+            🌐 Hospital Portal
           </button>
         </Link>
       </header>
